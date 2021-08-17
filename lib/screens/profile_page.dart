@@ -47,75 +47,77 @@ class ProfilePage extends StatelessWidget {
                 flex: 5,
                 child: Container(
                   color: Colors.white,
-                  child: Table(
-                    children: [
-                      TableRow(
-                        children: [
-                          ProfileInfoCard(
-                            firstText: '13',
-                            secondText: 'New matches',
-                            widget: Icon(
-                              Icons.star,
-                              size: 32,
-                              color: blueColor,
+                  child: SingleChildScrollView(
+                    child: Table(
+                      children: [
+                        TableRow(
+                          children: [
+                            ProfileInfoCard(
+                              firstText: '13',
+                              secondText: 'New matches',
+                              widget: Icon(
+                                Icons.star,
+                                size: 32,
+                                color: blueColor,
+                              ),
                             ),
-                          ),
-                          ProfileInfoCard(
-                            firstText: '21',
-                            secondText: 'Unmatched me',
-                            widget: Image.asset(
-                              'assets/icons/sad_smiley.png',
-                              width: 32,
-                              color: blueColor,
+                            ProfileInfoCard(
+                              firstText: '21',
+                              secondText: 'Unmatched me',
+                              widget: Image.asset(
+                                'assets/icons/sad_smiley.png',
+                                width: 32,
+                                color: blueColor,
+                              ),
                             ),
-                          ),
-                        ],
-                      ),
-                      TableRow(
-                        children: [
-                          ProfileInfoCard(
-                            firstText: '264',
-                            secondText: 'All matches',
-                            widget: Image.asset(
-                              'assets/icons/checklist.png',
-                              width: 32,
-                              color: blueColor,
+                          ],
+                        ),
+                        TableRow(
+                          children: [
+                            ProfileInfoCard(
+                              firstText: '264',
+                              secondText: 'All matches',
+                              widget: Image.asset(
+                                'assets/icons/checklist.png',
+                                width: 32,
+                                color: blueColor,
+                              ),
                             ),
-                          ),
-                          ProfileInfoCard(
-                            firstText: '21',
-                            secondText: 'Rematches',
-                            widget: Icon(
-                              Icons.refresh,
-                              size: 32,
-                              color: blueColor,
+                            ProfileInfoCard(
+                              firstText: '21',
+                              secondText: 'Rematches',
+                              widget: Icon(
+                                Icons.refresh,
+                                size: 32,
+                                color: blueColor,
+                              ),
                             ),
-                          ),
-                        ],
-                      ),
-                      TableRow(
-                        children: [
-                          ProfileInfoCard(
-                            firstText: '83',
-                            secondText: 'Profile Visitors',
-                            widget: Icon(
-                              Icons.remove_red_eye,
-                              size: 32,
-                              color: blueColor,
+                          ],
+                        ),
+                        TableRow(
+                          children: [
+                            ProfileInfoCard(
+                              firstText: '83',
+                              secondText: 'Profile Visitors',
+                              widget: Icon(
+                                Icons.remove_red_eye,
+                                size: 32,
+                                color: blueColor,
+                              ),
                             ),
-                          ),
-                          ProfileInfoCard(
-                            firstText: '42',
-                            secondText: 'Super Likes',
-                            widget: Icon(
-                              Icons.favorite,
-                              size: 32,
-                              color: blueColor,
+                            ProfileInfoCard(
+                              firstText: '42',
+                              secondText: 'Super Likes',
+                              widget: Icon(
+                                Icons.favorite,
+                                size: 32,
+                                color: blueColor,
+                              ),
                             ),
-                          ),
-                        ],
-                      ),
-                    ],
+                          ],
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ),
