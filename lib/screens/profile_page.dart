@@ -84,7 +84,7 @@ class ProfilePage extends StatelessWidget {
                           ),
                           ProfileInfoCard(
                             firstText: '21',
-                            secondText: 'Unmatched me',
+                            secondText: 'Rematches',
                             widget: Icon(
                               Icons.refresh,
                               size: 32,
@@ -96,20 +96,20 @@ class ProfilePage extends StatelessWidget {
                       TableRow(
                         children: [
                           ProfileInfoCard(
-                            firstText: '13',
-                            secondText: 'New matches',
+                            firstText: '83',
+                            secondText: 'Profile Visitors',
                             widget: Icon(
-                              Icons.star,
+                              Icons.remove_red_eye,
                               size: 32,
                               color: blueColor,
                             ),
                           ),
                           ProfileInfoCard(
-                            firstText: '21',
-                            secondText: 'Unmatched me',
-                            widget: Image.asset(
-                              'assets/icons/sad_smiley.png',
-                              width: 32,
+                            firstText: '42',
+                            secondText: 'Super Likes',
+                            widget: Icon(
+                              Icons.favorite,
+                              size: 32,
                               color: blueColor,
                             ),
                           ),
