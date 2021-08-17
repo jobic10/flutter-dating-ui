@@ -1,8 +1,8 @@
 import 'package:dating_ui/styleguides/colors.dart';
 import 'package:dating_ui/styleguides/text_styles.dart';
-import 'package:dating_ui/widgets/my_info.dart';
-import 'package:dating_ui/widgets/opaque_image.dart';
-import 'package:dating_ui/widgets/profile_info_card.dart';
+import 'package:dating_ui/screens/profile/widgets/my_info.dart';
+import 'package:dating_ui/screens/profile/widgets/opaque_image.dart';
+import 'package:dating_ui/screens/profile/widgets/profile_info_card.dart';
 import 'package:flutter/material.dart';
 
 class ProfilePage extends StatelessWidget {
