@@ -1,3 +1,4 @@
+import 'package:dating_ui/screens/super/super_liked.dart';
 import 'package:dating_ui/styleguides/text_styles.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class ProfileInfoCard extends StatelessWidget {
       onTap: () {
         Navigator.of(context).push(
           MaterialPageRoute(
-            builder: (_) => Text('Coming soon!'),
+            builder: (_) => SuperLikedScreen(),
           ),
         );
       },
