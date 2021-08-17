@@ -1,6 +1,6 @@
 import 'package:dating_ui/styleguides/text_styles.dart';
-import 'package:dating_ui/widgets/radial_progress.dart';
-import 'package:dating_ui/widgets/rounded_image.dart';
+import 'package:dating_ui/screens/profile/widgets/radial_progress.dart';
+import 'package:dating_ui/screens/profile/widgets/rounded_image.dart';
 import 'package:flutter/material.dart';
 
 class MyInfo extends StatelessWidget {
