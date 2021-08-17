@@ -2,6 +2,7 @@ import 'package:dating_ui/styleguides/colors.dart';
 import 'package:dating_ui/styleguides/text_styles.dart';
 import 'package:dating_ui/widgets/my_info.dart';
 import 'package:dating_ui/widgets/opaque_image.dart';
+import 'package:dating_ui/widgets/profile_info_card.dart';
 import 'package:flutter/material.dart';
 
 class ProfilePage extends StatelessWidget {
@@ -45,7 +46,77 @@ class ProfilePage extends StatelessWidget {
               Expanded(
                 flex: 5,
                 child: Container(
-                  color: secondaryTextColor,
+                  color: Colors.white,
+                  child: Table(
+                    children: [
+                      TableRow(
+                        children: [
+                          ProfileInfoCard(
+                            firstText: '13',
+                            secondText: 'New matches',
+                            widget: Icon(
+                              Icons.star,
+                              size: 32,
+                              color: blueColor,
+                            ),
+                          ),
+                          ProfileInfoCard(
+                            firstText: '21',
+                            secondText: 'Unmatched me',
+                            widget: Image.asset(
+                              'assets/icons/sad_smiley.png',
+                              width: 32,
+                              color: blueColor,
+                            ),
+                          ),
+                        ],
+                      ),
+                      TableRow(
+                        children: [
+                          ProfileInfoCard(
+                            firstText: '264',
+                            secondText: 'All matches',
+                            widget: Image.asset(
+                              'assets/icons/checklist.png',
+                              width: 32,
+                              color: blueColor,
+                            ),
+                          ),
+                          ProfileInfoCard(
+                            firstText: '21',
+                            secondText: 'Unmatched me',
+                            widget: Icon(
+                              Icons.refresh,
+                              size: 32,
+                              color: blueColor,
+                            ),
+                          ),
+                        ],
+                      ),
+                      TableRow(
+                        children: [
+                          ProfileInfoCard(
+                            firstText: '13',
+                            secondText: 'New matches',
+                            widget: Icon(
+                              Icons.star,
+                              size: 32,
+                              color: blueColor,
+                            ),
+                          ),
+                          ProfileInfoCard(
+                            firstText: '21',
+                            secondText: 'Unmatched me',
+                            widget: Image.asset(
+                              'assets/icons/sad_smiley.png',
+                              width: 32,
+                              color: blueColor,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ],
