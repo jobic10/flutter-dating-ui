@@ -21,14 +21,14 @@ final TextStyle whiteSubHeadingTextStyle = TextStyle(
 );
 
 final TextStyle titleStyle = TextStyle(
-  color: primaryColor,
+  color: primaryTextColor,
   fontSize: 22,
   fontWeight: FontWeight.w600,
 );
 
 final TextStyle subTitleTextStyle = TextStyle(
   color: secondaryTextColor,
-  fontSize: 18,
+  fontSize: 16,
   fontWeight: FontWeight.w200,
 );
 
