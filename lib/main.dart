@@ -1,4 +1,4 @@
-import 'package:dating_ui/screens/profile_page.dart';
+import 'package:dating_ui/screens/profile/profile_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
