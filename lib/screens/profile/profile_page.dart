@@ -1,3 +1,4 @@
+import 'package:dating_ui/screens/profile/widgets/profile_card.dart';
 import 'package:dating_ui/styleguides/colors.dart';
 import 'package:dating_ui/styleguides/text_styles.dart';
 import 'package:dating_ui/screens/profile/widgets/my_info.dart';
@@ -130,7 +131,24 @@ class ProfilePage extends StatelessWidget {
             right: 16,
             child: Container(
               height: 80,
-              color: Colors.green,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  ProfileCard(
+                    firstText: "54 %",
+                    secondText: "Progress",
+                  ),
+                  ProfileCard(
+                    hasImage: true,
+                    imagePath: 'assets/icons/pulse.png',
+                  ),
+                  ProfileCard(
+                    firstText: "152",
+                    secondText: "Level",
+                  ),
+                ],
+              ),
             ),
           ),
         ],
