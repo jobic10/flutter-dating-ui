@@ -10,6 +10,7 @@ class ProfilePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final screenHeight = MediaQuery.of(context).size.height;
     return Scaffold(
       body: Stack(
         children: [
@@ -122,6 +123,15 @@ class ProfilePage extends StatelessWidget {
                 ),
               ),
             ],
+          ),
+          Positioned(
+            top: screenHeight * (4 / 9) - 80 / 2, //🔥
+            left: 16,
+            right: 16,
+            child: Container(
+              height: 80,
+              color: Colors.green,
+            ),
           ),
         ],
       ),
