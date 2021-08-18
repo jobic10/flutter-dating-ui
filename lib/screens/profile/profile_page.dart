@@ -48,6 +48,9 @@ class ProfilePage extends StatelessWidget {
               Expanded(
                 flex: 5,
                 child: Container(
+                  padding: EdgeInsets.only(
+                    top: 50,
+                  ),
                   color: Colors.white,
                   child: SingleChildScrollView(
                     child: Table(
