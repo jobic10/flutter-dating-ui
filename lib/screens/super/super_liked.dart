@@ -130,6 +130,30 @@ class SuperLikedScreen extends StatelessWidget {
                       height: 50,
                     ),
                   ),
+                  trailing: SizedBox(
+                    width: 75,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.end,
+                      children: [
+                        Expanded(
+                          child: Row(
+                            children: [
+                              Container(
+                                width: 15,
+                                height: 15,
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: Colors.green,
+                                ),
+                              ),
+                              Spacer(),
+                              Text('Online')
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
                 ),
               );
             },
