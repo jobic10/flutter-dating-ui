@@ -147,8 +147,20 @@ class SuperLikedScreen extends StatelessWidget {
                                 ),
                               ),
                               Spacer(),
-                              Text('Online')
+                              Text(
+                                'ONLINE',
+                                style: whiteSubHeadingTextStyle.copyWith(
+                                  color: Colors.green,
+                                  fontSize: 14,
+                                ),
+                              )
                             ],
+                          ),
+                        ),
+                        Expanded(
+                          child: Icon(
+                            Icons.star,
+                            color: blueColor,
                           ),
                         )
                       ],
